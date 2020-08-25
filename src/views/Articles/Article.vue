@@ -34,7 +34,9 @@
 
       <v-card-actions>
         <v-spacer></v-spacer>
-        <div class="font-weight-thin font-italic">~ {{ article.createdAt | timeAgo }}</div>
+        <div class="font-weight-thin font-italic">
+          ~ {{ article.createdAt | timeAgo }}
+        </div>
       </v-card-actions>
     </v-card>
 
